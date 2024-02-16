@@ -1,0 +1,57 @@
+body {
+    margin-bottom: 1000px;
+}
+
+.div {
+    margin: 0;
+}
+
+.background {
+    margin: 30px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    vertical-align: middle;
+    background-color: hsl(212, 45%, 89%);
+    border: none;
+    box-shadow: 10px 10px 30px hsla(218, 44%, 22%, 0.2);
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px hsla(218, 44%, 22%, 0.2);
+}
+
+.QR-code {
+    width: 260px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: Outfit, Arial;
+    font-weight: 700;
+    font-size: 21px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 14px;
+}
+
+.invite {
+    font-family: Outfit, Arial;
+    font-size: 15px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+    color: hsl(220, 15%, 55%);
+}
